@@ -9,3 +9,23 @@
 
 # Undo-tree save-files
 *.~undo-tree
+
+cnfonts/*
+
+projectile*
+
+recentf*
+
+straight/*
+
+var/*
+
+org-persist/
+
+plantuml.jar
+
+.org-id-locations
+
+.emacs-custom.el
+
+bookmarks
