@@ -43,6 +43,12 @@
 	  ("@python" . ?p)
 	  ("@java" . ?j)
 	  (:endgroup . nil)
+	  ;; extent
+	  (:startgroup . nil)
+	  ("@high" . ?h)
+	  ("@middle" . ?m)
+	  ("low" . ?l)
+	  (:endgroup . nil)
 	  ("mindmap" . ?m)
 	  ))
   (org-babel-do-load-languages

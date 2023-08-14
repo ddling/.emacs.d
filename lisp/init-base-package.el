@@ -32,4 +32,10 @@
 (use-package ace-window
   :straight t)
 
+(use-package smartparens
+  :straight t
+  :config
+  (add-hook 'org-mode-hook #'smartparens-mode)
+  (add-hook 'prog-mode-hook #'smartparens-mode))
+
 (provide 'init-base-package)

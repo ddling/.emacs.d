@@ -49,4 +49,8 @@
     (setq-default evil-escape-delay 0.2))
 )
 
+(add-hook 'smartparens-enabled-hook #'evil-smartparens-mode)
+(add-hook 'prog-mode-hook #'evil-smartparens-mode)
+(add-hook 'org-mode-hook #'evil-smartparens-mode)
+
 (provide 'init-evil)
